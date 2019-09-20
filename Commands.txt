@@ -1,0 +1,17 @@
+Essential commands ---------------------
+
+docker build -t myimage .
+docker run -it --rm myimage
+docker ps -a
+docker stop eager_rubin
+docker rm CONTAINER_NAME
+docker rmi myimage:latest
+docker image
+
+Containerize a .NET Core app --------------------------
+
+docker start eager_rubin
+docker attach --sig-proxy=false eager_rubin
+docker stop eager_rubin
+
+docker run -it --rm myimage
